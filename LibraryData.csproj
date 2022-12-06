@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20220611202446_Configure User entity with Fluent API.cs" />
+    <Compile Remove="Migrations\20220611202446_Configure User entity with Fluent API.Designer.cs" />
+    <Compile Remove="Migrations\20220613153535_Configure LibraryAsset entity with FluentAPI.cs" />
+    <Compile Remove="Migrations\20220613153535_Configure LibraryAsset entity with FluentAPI.Designer.cs" />
+    <Compile Remove="Migrations\20220613154004_Configure LibraryAsset entity with FluentAPI.cs" />
+    <Compile Remove="Migrations\20220613154004_Configure LibraryAsset entity with FluentAPI.Designer.cs" />
+    <Compile Remove="Migrations\20220613165102_Configure Checkout entity with FluentAPI.cs" />
+    <Compile Remove="Migrations\20220613165102_Configure Checkout entity with FluentAPI.Designer.cs" />
+    <Compile Remove="Migrations\20220613171424_Configure Checkout entity with FluentAPI.cs" />
+    <Compile Remove="Migrations\20220613171424_Configure Checkout entity with FluentAPI.Designer.cs" />
+    <Compile Remove="Migrations\20220613172027_Configure Checkout entity with FluentAPI.cs" />
+    <Compile Remove="Migrations\20220613172027_Configure Checkout entity with FluentAPI.Designer.cs" />
+    <Compile Remove="Migrations\20220613190835_Configure CheckoutHistory entity with FluentAPI.cs" />
+    <Compile Remove="Migrations\20220613190835_Configure CheckoutHistory entity with FluentAPI.Designer.cs" />
+    <Compile Remove="Migrations\20220615101306_Change ISBN property in Book entity to be of type varchar.cs" />
+    <Compile Remove="Migrations\20220615101306_Change ISBN property in Book entity to be of type varchar.Designer.cs" />
+    <Compile Remove="Migrations\20220615105822_Marked all the rest navigation properties as virtual.cs" />
+    <Compile Remove="Migrations\20220615105822_Marked all the rest navigation properties as virtual.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="2.8.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
